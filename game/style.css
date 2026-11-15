@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #050210;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+main {
+  text-align: center;
+  padding: 12px;
+}
+
+#game {
+  display: block;
+  width: min(96vw, 1152px);
+  height: auto;
+  border: 1px solid rgba(255, 122, 26, 0.35);
+  border-radius: 10px;
+  background: #0b0620;
+  cursor: crosshair;
+}
+
+.hint {
+  color: #8a8fb0;
+  font-size: 13px;
+  margin: 10px 0 0;
+}
